@@ -24,7 +24,6 @@ Use the 'Prev' and 'Next' buttons to navigate through images.
 Click on 'View Products' to access detailed information about the current product.
 
 **Repository Structure**
-Copy code
 Lookbook/
 │
 ├── index.html
