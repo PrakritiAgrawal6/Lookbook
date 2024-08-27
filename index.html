@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Look Book</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="lookbook">
+    <div class="lookbook-controls">
+        <button onclick="previous()">Prev</button>
+        <button onclick="next()">Next</button>
+    </div>
+    <div class="lookbook-viewer">
+        <img id="lookbookImage" src="your-image-url-here.jpg" alt="Look">
+        <!-- Annotations -->
+        <div class="annotation" style="top: 20%; left: 30%;"></div>
+    </div>
+    <button class="view-products" onclick="viewProductDetails()">View Products</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

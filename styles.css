@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #f0f0f0;
+  }
+  
+  .lookbook {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    background: white;
+  }
+  
+  .lookbook-viewer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .lookbook-viewer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  
+  .lookbook-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .view-products {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  
